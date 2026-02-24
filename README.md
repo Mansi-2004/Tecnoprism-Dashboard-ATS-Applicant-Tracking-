@@ -34,10 +34,11 @@ cd backend
 python -m venv .venv
 
 # Activate the environment:
-# On Windows:
+# FOR WINDOWS (PowerShell/CMD):
 .venv\Scripts\activate
-# On Mac/Linux:
-source .venv/bin/activate
+
+# FOR MAC/LINUX:
+# source .venv/bin/activate
 
 pip install -r requirements.txt
 uvicorn app.main:app --reload
