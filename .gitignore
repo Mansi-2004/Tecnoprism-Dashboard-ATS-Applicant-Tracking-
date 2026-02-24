@@ -1,0 +1,25 @@
+# Environment variables
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.venv/
+.venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large files/Logs
+backend/backend_log.txt
+backend/uploads/
+*.log
