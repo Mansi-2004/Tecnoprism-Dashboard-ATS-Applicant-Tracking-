@@ -29,7 +29,6 @@
 - MongoDB
 
 ### 2. Backend Setup
-```bash
 cd backend
 python -m venv .venv
 
@@ -42,7 +41,6 @@ python -m venv .venv
 
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-```
 
 ### 3. Frontend Setup
 ```bash
