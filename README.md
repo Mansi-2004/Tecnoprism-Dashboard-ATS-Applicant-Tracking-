@@ -37,10 +37,11 @@ python -m venv .venv
 .venv\Scripts\activate
 
 # FOR MAC/LINUX:
-# source .venv/bin/activate
+source .venv/bin/activate
 
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
 
 ### 3. Frontend Setup
 ```bash
