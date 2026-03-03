@@ -1,0 +1,201 @@
+2026-02-27T10:04:10.958Z vite:config bundled config file loaded in 508.77ms
+2026-02-27T10:04:10.980Z vite:config using resolved config: {
+  server: {
+    preTransformRequests: true,
+    host: '::',
+    port: 8080,
+    hmr: { overlay: false },
+    force: true,
+    sourcemapIgnoreList: [Function: isInNodeModules$1],
+    middlewareMode: false,
+    fs: {
+      strict: true,
+      allow: [Array],
+      deny: [Array],
+      cachedChecks: undefined
+    }
+  },
+  plugins: [
+    'vite:optimized-deps',
+    'vite:watch-package-data',
+    'vite:pre-alias',
+    'alias',
+    '@tailwindcss/vite:scan',
+    '@tailwindcss/vite:generate:serve',
+    'vite:react-swc:resolve-runtime',
+    'lovable-plugin',
+    'vite:modulepreload-polyfill',
+    'vite:resolve',
+    'vite:html-inline-proxy',
+    'vite:css',
+    'vite:json',
+    'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    'vite:react-swc',
+    'vite:wasm-fallback',
+    'vite:define',
+    'vite:css-post',
+    'vite:worker-import-meta-url',
+    'vite:asset-import-meta-url',
+    'vite:dynamic-import-vars',
+    'vite:import-glob',
+    'vite:client-inject',
+    'vite:css-analysis',
+    'vite:import-analysis'
+  ],
+  resolve: {
+    mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+    conditions: [],
+    extensions: [
+      '.mjs',  '.js',
+      '.mts',  '.ts',
+      '.jsx',  '.tsx',
+      '.json'
+    ],
+    dedupe: [],
+    preserveSymlinks: false,
+    alias: [ [Object], [Object], [Object] ]
+  },
+  optimizeDeps: {
+    holdUntilCrawlEnd: true,
+    force: true,
+    include: [ 'react/jsx-dev-runtime' ],
+    esbuildOptions: { preserveSymlinks: false, jsx: 'automatic' }
+  },
+  esbuild: false,
+  oxc: false,
+  configFile: 'C:/Users/NET/Desktop/ATS-main/MP_frontend/vite.config.js',
+  configFileDependencies: [ 'C:/Users/NET/Desktop/ATS-main/MP_frontend/vite.config.js' ],
+  inlineConfig: {
+    root: undefined,
+    base: undefined,
+    mode: undefined,
+    configFile: undefined,
+    logLevel: undefined,
+    clearScreen: undefined,
+    optimizeDeps: { force: true },
+    server: { force: true, host: undefined }
+  },
+  root: 'C:/Users/NET/Desktop/ATS-main/MP_frontend',
+  base: '/',
+  decodedBase: '/',
+  rawBase: '/',
+  publicDir: 'C:/Users/NET/Desktop/ATS-main/MP_frontend/public',
+  cacheDir: 'C:/Users/NET/Desktop/ATS-main/MP_frontend/node_modules/.vite',
+  command: 'serve',
+  mode: 'development',
+  ssr: {
+    target: 'node',
+    optimizeDeps: { noDiscovery: true, esbuildOptions: [Object] }
+  },
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: false,
+  css: { lightningcss: undefined },
+  build: {
+    target: [ 'es2020', 'edge88', 'firefox78', 'chrome87', 'safari14' ],
+    cssTarget: [ 'es2020', 'edge88', 'firefox78', 'chrome87', 'safari14' ],
+    outDir: 'dist',
+    assetsDir: 'assets',
+    assetsInlineLimit: 4096,
+    cssCodeSplit: true,
+    sourcemap: false,
+    rollupOptions: {},
+    minify: 'esbuild',
+    terserOptions: {},
+    write: true,
+    emptyOutDir: null,
+    copyPublicDir: true,
+    manifest: false,
+    lib: false,
+    ssr: false,
+    ssrManifest: false,
+    ssrEmitAssets: false,
+    reportCompressedSize: true,
+    chunkSizeWarningLimit: 500,
+    watch: null,
+    commonjsOptions: { include: [Array], extensions: [Array] },
+    dynamicImportVarsOptions: { warnOnError: true, exclude: [Array] },
+    modulePreload: { polyfill: true },
+    cssMinify: true
+  },
+  preview: {
+    port: undefined,
+    strictPort: undefined,
+    host: '::',
+    allowedHosts: undefined,
+    https: undefined,
+    open: undefined,
+    proxy: undefined,
+    cors: undefined,
+    headers: undefined
+  },
+  envDir: 'C:/Users/NET/Desktop/ATS-main/MP_frontend',
+  env: { BASE_URL: '/', MODE: 'development', DEV: true, PROD: false },
+  assetsInclude: [Function: assetsInclude],
+  logger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  packageCache: Map(1) {
+    'fnpd_C:/Users/NET/Desktop/ATS-main/MP_frontend' => {
+      dir: 'C:/Users/NET/Desktop/ATS-main/MP_frontend',
+      data: [Object],
+      hasSideEffects: [Function: hasSideEffects],
+      webResolvedImports: {},
+      nodeResolvedImports: {},
+      setResolvedCache: [Function: setResolvedCache],
+      getResolvedCache: [Function: getResolvedCache]
+    },
+    set: [Function (anonymous)]
+  },
+  createResolver: [Function: createResolver],
+  worker: { format: 'iife', plugins: '() => plugins', rollupOptions: {} },
+  appType: 'spa',
+  experimental: { importGlobRestoreExtension: false, hmrPartialAccept: false },
+  webSocketToken: '0gM2cGL8iomA',
+  additionalAllowedHosts: [ '::', '::' ],
+  getSortedPlugins: [Function: getSortedPlugins],
+  getSortedPluginHooks: [Function: getSortedPluginHooks]
+}
+Forced re-optimization of dependencies
+2026-02-27T10:04:11.044Z vite:deps removing old cache dir C:/Users/NET/Desktop/ATS-main/MP_frontend/node_modules/.vite/deps
+2026-02-27T10:04:11.077Z vite:resolve 7.98ms react/jsx-dev-runtime -> C:/Users/NET/Desktop/ATS-main/MP_frontend/node_modules/react/jsx-dev-runtime.js
+2026-02-27T10:04:11.083Z vite:deps scanning for dependencies...
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m1210[22m[2m[0m ms[22m
+
+  [32mΓ₧£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m8080[22m/[39m
+  [32mΓ₧£[39m  [1mNetwork[22m: [36mhttp://172.16.17.53:[1m8080[22m/[39m
+[2m[32m  Γ₧£[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+2026-02-27T10:04:11.142Z vite:deps Crawling dependencies using entries: 
+  C:/Users/NET/Desktop/ATS-main/MP_frontend/index.html
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+[Failed to load PostCSS config: Failed to load PostCSS config (searchPath: C:/Users/NET/Desktop/ATS-main/MP_frontend): [Error] Loading PostCSS Plugin failed: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- C:\Users\NET\Desktop\ATS-main\MP_frontend\postcss.config.js
+
+(@C:\Users\NET\Desktop\ATS-main\MP_frontend\postcss.config.js)
+Error: Loading PostCSS Plugin failed: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- C:\Users\NET\Desktop\ATS-main\MP_frontend\postcss.config.js
+
+(@C:\Users\NET\Desktop\ATS-main\MP_frontend\postcss.config.js)
+    at load (file:///C:/Users/NET/Desktop/ATS-main/MP_frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:33632:11)
+    at file:///C:/Users/NET/Desktop/ATS-main/MP_frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:33657:16
+    at Array.map (<anonymous>)
+    at plugins (file:///C:/Users/NET/Desktop/ATS-main/MP_frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:33656:8)
+    at processResult (file:///C:/Users/NET/Desktop/ATS-main/MP_frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:33726:14)
+    at file:///C:/Users/NET/Desktop/ATS-main/MP_frontend/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:33856:14]
+
+Node.js v22.14.0
